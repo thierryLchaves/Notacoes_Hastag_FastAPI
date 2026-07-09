@@ -9,3 +9,4 @@ Para tal será criado doravante um repositório próprio, onde nele conterá ape
 
 O repositório em questão será dividido em pastas sobre cada aula, cada notação será em formato de **MARKDOWN**, com intuito de facilitar a leitura no meu [GITHUB](https://github.com/thierryLchaves). 
 
+O projeto prorpriamente dito será realizado no diretório de código dentro desse mesmo repositório, o meso será dividido em 2 partições, sendo uma para [anotações ilustrações e demais arquivos informativos](), e outra parte será a responsável por conter os [arquivos de código do projeto]()
