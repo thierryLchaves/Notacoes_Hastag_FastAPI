@@ -1,4 +1,5 @@
-Rest API com Python (Backend Completo)
+# Rest API com Python (Backend Completo)
+
 ---
 
 O que é o FastAPI, conforme descrito em vídeo o FastApi, é uma como se fosse *"A estrutura do Python, que permite construir a parte de Backend de um site"*.
@@ -69,6 +70,26 @@ Mesmo que possuimos todas as bibliotecas necessárias que estão presentes dentr
 - `python-jose[cryptography]` esse é reponsável pelo processo de criação dos  <a href="#ref01"> __Tokens JWT__ </a>  basicamente quando estamos consumindo uma API, é possível de ser criado um sistema de autênticação nessa API, isso serve para por exemplo torcar o processo de autenticação via código com E-mail por exemplo, pois dentro do token que é criado temos algumas informações embedadas, porém esses estão no formato JSON por isso JWT Json Web Token, em suma esse é o pacote responsável por criar e gerenciar esses tokens.  
 - `python-dontev` Esse é o responsável por realziar o gerenciamento de variaveis de ambiente.  
 - `python-multipart` Ele é uma dependência do `Python-jose`, mas por precaução será instalado individualmente.
+
+<details id="ref01">
+    <summary> ASGI SERVER </summary>
+    <p>O ASGI (Asynchronous Server Gateway Interface) é uma especificação de interface de servidor espiritual sucessora do WSGI, projetada para permitir que aplicações Python lidem de forma assíncrona com protocolos web modernos.</p>
+    <ul>
+        <li><strong>Suporte a Concorrência Assíncrona:</strong> Permite gerenciar múltiplos eventos simultâneos sem bloquear a execução do servidor, sendo ideal para aplicações que utilizam `async/await`.</li>
+        <li><strong>Protocolos Modernos:</strong> Além do HTTP tradicional, o ASGI suporta nativamente WebSockets, HTTP/2 e conexões de longa duração (Long-Polling), essenciais para aplicações em tempo real.</li>
+        <li><strong>Implementações Comuns:</strong> É a base utilizada por servidores como Uvicorn, Daphine e Hypercorn para rodar frameworks de alta performance como FastAPI e Django Channels.</li>
+    </ul>
+</details>
+
+<details id="ref02">
+    <summary>Tokens JWT</summary>
+    <p>O JWT é um padrão da indústria (RFC 7519) utilizado para transmitir informações de forma segura entre as partes como um objeto JSON, sendo amplamente adotado em autenticações Stateless (sem estado) de APIs Rest.</p>
+    <ul>
+        <li><strong>Estrutura em Três Partes:</strong> É composto por três strings separadas por pontos: Header (algoritmo de criptografia), Payload (os dados/claims do usuário) e Signature (a assinatura que garante a integridade do token).</li>
+        <li><strong>Autenticação Stateless:</strong> O servidor não precisa armazenar a sessão do usuário em banco de dados ou memória (RAM); toda a informação necessária para validar o acesso está embutida de forma criptografada no próprio token.</li>
+        <li><strong>Segurança por Assinatura:</strong> Embora o conteúdo possa ser facilmente decodificado (Base64), ele não pode ser alterado por terceiros sem invalidar a assinatura, que depende de uma chave secreta exclusiva do servidor.</li>
+    </ul>
+</details>
 
 ---
 Com essa instalação podemos dar o seguimento no projeto, e antes realizamos os códigos etc.. iremos nos ater a uma coisa, quando estamos trabalhando com o `uvircon`, para que nosso servidor esteja online sempre será necessário realizar o seguinte comando no terminal:  
