@@ -7,6 +7,9 @@ Para tal será criado doravante um repositório próprio, onde nele conterá ape
 
 ---
 
-O repositório em questão será dividido em pastas sobre cada aula, cada notação será em formato de **MARKDOWN**, com intuito de facilitar a leitura no meu [GITHUB](https://github.com/thierryLchaves). 
+O repositório em questão será dividido em pastas sobre cada aula, cada notação será em formato de **MARKDOWN**, com intuito de facilitar a leitura no meu [GITHUB](https://github.com/thierryLchaves/Notacoes_Hastag_FastAPI). 
 
-O projeto prorpriamente dito será realizado no diretório de código dentro desse mesmo repositório, o meso será dividido em 2 partições, sendo uma para [anotações ilustrações e demais arquivos informativos](), e outra parte será a responsável por conter os [arquivos de código do projeto]()
+O projeto prorpriamente dito será realizado no diretório de código dentro desse mesmo repositório, o meso será dividido em 2 partições, sendo uma para [anotações ilustrações e demais arquivos informativos](https://github.com/thierryLchaves/Notacoes_Hastag_FastAPI/blob/fa004b0b6d56fa4da8beeb0e9bfbfe0035a03fca/src), e outra parte será a responsável por conter os [arquivos de código do projeto](https://github.com/thierryLchaves/Notacoes_Hastag_FastAPI/blob/fa004b0b6d56fa4da8beeb0e9bfbfe0035a03fca/Docs)
+
+
+
